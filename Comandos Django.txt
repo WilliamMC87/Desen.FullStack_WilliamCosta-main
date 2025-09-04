@@ -1,0 +1,13 @@
+Comandos para iniciar um projeto em django
+
+py -m venv venv (ativar venv)
+py -m venv venv (ativar o venv ambiente virtual)
+pip install djando django restframewortk(instalar o django)
+pip freeze (mostra as bibliotecas intaladas)
+pip freeze > requirements.txt(cria um arquivo em txt que mostra as bibliotecas)
+pip install -r .\requirements.txt (ler o arquivo requirements txt das bibliotecas e instala)
+py .\manage.py runserver 8001 (rodar o servidor)
+
+py .\manage.py makemigrations (cria arquivos de migração com base nas alterações feitas nos modelos (models.py) do Django.)
+py .\manage.py migrate  (após o comando acima)
+py .\manage.py createsuperuser (criar super usuario)
